@@ -12,8 +12,7 @@ In keras, you use the word `Dense` to define a layer of connected neurons. There
 
 #### model.fit(x, y, epochs=100) => trains the model with available inputs (x) and outputs (y)
 
-`model.fit()` trains the deep learning model with the available input data (x) and answers/output data (y). `epochs` mentions how many times the training process should run. As the model predicts wrong values, depending upon the high loss values, the optimization algorithm optimizes the outcome. It is done by adding weights `w` to `x` and also a bias value `b`. Finally, that derives the mostly used machine learning algorithm (logistic regression) as
-`y = w.Tx + b`. And the weights are optimized by the optimization algorithm (most general one is gradient descent) which is `w = w - (alpha) * w` where `alpha` is the learning rate.
+`model.fit()` trains the deep learning model with the available input data (x) and answers/output data (y). `epochs` mentions how many times the training process should run. As the model predicts wrong values, depending upon the high loss values, the optimization algorithm optimizes the outcome. It is done by adding weights `w` to `x`. Finally, that derives one of the mostly used machine learning algorithm (linear regression) as`y = w.Tx`. And the weights are optimized by the optimization algorithm (most general one is gradient descent) which is `w = w - (alpha) * w` where `alpha` is the learning rate. In case of logistic regression the equation will be `y = w.Tx + b` where `b` is the bias. And then finally an activation function will be applied on it to predict a level of 0 or 1 by `sigmoid(y)`.
 
 #### model.predict(x-value) => predicts y-value (outputs)
 
