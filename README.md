@@ -18,6 +18,8 @@ In keras, you use the word `Dense` to define a layer of connected neurons. There
 
 Finally, the output `y-value` is predicted based on the `x-value`. Through the training process, the model learns the equation that lies between `y` and `x`. And to exactly predict the `y-value`, the model needs to be run for adequate times which is denoted by `epochs`. If the training period is not run adequate times, then the model will not be optimized appropriately and we might get erroneous result (less than the desired value in most cases). It can be denoted as `Underfit` problem.
 
+Increase in epochs can lead to overfitting when loss can start increasing.
+
 
 
 
