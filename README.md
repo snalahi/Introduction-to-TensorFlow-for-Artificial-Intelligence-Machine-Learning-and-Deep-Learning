@@ -20,3 +20,17 @@ Finally, the output `y-value` is predicted based on the `x-value`. Through the t
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
