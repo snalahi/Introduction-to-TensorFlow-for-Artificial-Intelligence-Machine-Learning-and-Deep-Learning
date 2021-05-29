@@ -20,6 +20,12 @@ Finally, the output `y-value` is predicted based on the `x-value`. Through the t
 
 Increase in epochs can lead to overfitting when loss can start increasing.
 
+We can use callbacks() to control training. If the certain condition is met inside the function (constructor) of the callback class, then the training process will stop at that certain epoch.
+
+{key : value} => this type of format with curly braces are used as dictionary in python. () => parentheses for tuples and [] => for lists.
+
+
+
 
 
 
