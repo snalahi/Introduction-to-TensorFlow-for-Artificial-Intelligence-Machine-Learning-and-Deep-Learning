@@ -28,7 +28,9 @@ model.summary() is a very handy tool to print out the model execution steps with
 
 In total, 2 rows and 2 columns always get eliminated from the original shape when the Conv2D (Convolution) layer is applied to the model. This happens due to the unavailability of the neighbouring pixels at the edges. So, for instance, if an image of shape (28, 28) is fed to the model and then convolution is applied, the output shape will be of (26, 26). *** See the handwritten notes for more detailed explanation ***
 
+(2, 2) MaxPooling just halves(1/2) the total dimension of the image. So, if the image size is (26, 26, 1) then after applying MaxPooling the image size will be (13, 13, 1)
 
+#### CNN (Convolutional Neural Network) is nothing but Deep Neural Network with Convolutions.
 
 
 
