@@ -24,6 +24,10 @@ We can use callbacks() to control training. If the certain condition is met insi
 
 {key : value} => this type of format with curly braces are used as dictionary in python. () => parentheses for tuples and [] => for lists.
 
+model.summary() is a very handy tool to print out the model execution steps with output shapes!!!
+
+In total, 2 rows and 2 columns always get eliminated from the original shape when the Conv2D (Convolution) layer is applied to the model. This happens due to the unavailability of the neighbouring pixels at the edges. So, for instance, if an image of shape (28, 28) is fed to the model and then convolution is applied, the output shape will be of (26, 26). *** See the handwritten notes for more detailed explanation ***
+
 
 
 
