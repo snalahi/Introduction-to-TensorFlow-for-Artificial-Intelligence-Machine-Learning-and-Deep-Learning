@@ -32,6 +32,8 @@ In total, 2 rows and 2 columns always get eliminated from the original shape whe
 
 #### CNN (Convolutional Neural Network) is nothing but Deep Neural Network with Convolutions.
 
+#### A little trick => whether it is the number of convolutional filters or dense layers, that should be in the form of multiples of 16.
+
 
 
 
